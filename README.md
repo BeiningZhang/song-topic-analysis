@@ -120,7 +120,7 @@ Lower perplexity values indicate a better fit to the data. Higher coherence scor
 <p align="center">
     <img src="figure/topics.png"
         alt="Topics" 
-        height="80"
+        height="70"
         style="display: block; margin: 0 auto" />
 <p>
 
