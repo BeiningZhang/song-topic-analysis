@@ -18,45 +18,35 @@ The media company can be very fussy, so they expect to see a small powerpoint de
 ## Data Extraction
 Folder with txt files -> A DataFrame with columns of songs names and lyrics
 
-![Data Extraction](figure/data_extraction.png)
+![Data Extraction](figure/data_extraction.png){width="800" height="600" style="display: block; margin: 0 auto"}
+ 
 
 ## Data Cleaning
-Removed blank files and songs with duplicated lyrics.
-
-Number of songs before cleaning: 279
-
-Number of songs after cleaning: 217
-
-Number of blank files: 58
-
-Number of duplicated songs: 4 
-
-Total number of songs removed: 62
+- Removed blank files and songs with duplicated lyrics.
+- Number of songs before cleaning: 279
+- Number of songs after cleaning: 217
+- Number of blank files: 58
+- Number of duplicated songs: 4 
+- Total number of songs removed: 62
 
 ## Exploratory Data Analysis (EDA)
 
 ### How many of the songs feature at least one pair of lines that rhyme?
-**Define rhyme:** the last words in the consecutive two lines of lyrics are ending with the same 2 letters.
-
-**Method:** For each song’s lyrics, split into lines and extract the last words from every two consecutive lines and check whether the two letters in the last words match.
-
-**Data preprocessing:** Lowercase the lyrics.
-
-Number of songs with at least one pair of rhyming lines: 199
+- **Define rhyme:** the last words in the consecutive two lines of lyrics are ending with the same 2 letters.
+- **Method:** For each song’s lyrics, split into lines and extract the last words from every two consecutive lines and check whether the two letters in the last words match.
+- **Data preprocessing:** Lowercase the lyrics.
+- Number of songs with at least one pair of rhyming lines: 199
 
 ![Songs that feature name](figure/feature_song_name.png)
 
 ### How many of the songs feature the song name (found in the file name) in the song lyrics?
-**Method:** For each song, search in its lyrics whether the song name is in it.
-
-**Data Preprocessing:** The dash in song names are replaced with space. The lyrics are lowercased, removed whitespace, and punctuations.
-
-Number of songs that feature the song name in the lyrics: 186
+- **Method:** For each song, search in its lyrics whether the song name is in it.
+- **Data Preprocessing:** The dash in song names are replaced with space. The lyrics are lowercased, removed whitespace, and punctuations.
+- Number of songs that feature the song name in the lyrics: 186
 
 #### Sentiment Analysis
-**Method:** Used SentimentIntensityAnalyzer to score the lyrics and classify them as “Negative”, “Neutral”, or “Positive” (using +-0.05 thresholds).
-
-**Data Preprocessing:** Further cleaned lyrics by tokenizing and removing stopwords.
+- **Method:** Used SentimentIntensityAnalyzer to score the lyrics and classify them as “Negative”, “Neutral”, or “Positive” (using +-0.05 thresholds).
+- **Data Preprocessing:** Further cleaned lyrics by tokenizing and removing stopwords.
 
 ![Songs by sentiment](figure/songs_by_sentiment.png)
 
@@ -111,15 +101,11 @@ This topic could be about emotions and expressions. Words like "going," "come," 
 ![Topic Clusters](figure/tsne_topic_clusters.png)
 
 ### Result
-Topic 0: Love and Affection
-
-Topic 1: Actions and Expressions
-
-Topic 2: Assertiveness and Statements 
-
-Topic 3: Positive Emotions and Affirmations 
-
-Topic 4: Emotions and Expression
+- Topic 0: Love and Affection
+- Topic 1: Actions and Expressions
+- Topic 2: Assertiveness and Statements 
+- Topic 3: Positive Emotions and Affirmations 
+- Topic 4: Emotions and Expression
 
 ![Results](figure/result.png)
 
