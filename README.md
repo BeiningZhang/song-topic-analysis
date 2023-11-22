@@ -18,11 +18,13 @@ The media company can be very fussy, so they expect to see a small powerpoint de
 ## Data Extraction
 Folder with txt files -> A DataFrame with columns of songs names and lyrics
 
-<img src="figure/data_extraction.png" 
+<p align="center">
+    <img src="figure/data_extraction.png"
         alt="Data Extraction" 
         width="800" 
         height="600" 
         style="display: block; margin: 0 auto" />
+<p>
  
 
 ## Data Cleaning
