@@ -21,7 +21,7 @@ Folder with txt files -> A DataFrame with columns of songs names and lyrics
 <p align="center">
     <img src="figure/data_extraction.png"
         alt="Data Extraction" 
-        width="400"
+        height="200"
         style="display: block; margin: 0 auto" />
 <p>
  
@@ -45,7 +45,7 @@ Folder with txt files -> A DataFrame with columns of songs names and lyrics
 <p align="center">
     <img src="figure/feature_song_name.png"
         alt="Songs that feature name" 
-        width="400"
+        height="200"
         style="display: block; margin: 0 auto" />
 <p>
 
@@ -61,28 +61,28 @@ Folder with txt files -> A DataFrame with columns of songs names and lyrics
 <p align="center">
     <img src="figure/songs_by_sentiment.png"
         alt="Songs by sentiment" 
-        width="400"
+        height="200"
         style="display: block; margin: 0 auto" />
 <p>
 
 <p align="center">
     <img src="figure/negative_sentiment_wordcloud.png"
         alt="Negative Sentiment" 
-        width="400"
+        height="200"
         style="display: block; margin: 0 auto" />
 <p>
 
 <p align="center">
     <img src="figure/neutral_sentiment_wordcloud.png"
         alt="Neutral Sentiment" 
-        width="400"
+        height="200"
         style="display: block; margin: 0 auto" />
 <p>
 
 <p align="center">
     <img src="figure/positive_sentiment_wordcloud.png"
         alt="Positive Sentiment" 
-        width="400"
+        height="200"
         style="display: block; margin: 0 auto" />
 <p>
 
@@ -103,14 +103,14 @@ Lower perplexity values indicate a better fit to the data. Higher coherence scor
 <p align="center">
     <img src="figure/perplexity_coherence_score.png"
         alt="Perplexity Coherence Score" 
-        width="400"
+        height="200"
         style="display: block; margin: 0 auto" />
 <p>
 
 <p align="center">
-    <img src="figure/positive_sentiment_wordcloud.png"
+    <img src="figure/perplexity_coherence_graph.png"
         alt="Perplexity Coherence Graph" 
-        width="400"
+        height="200"
         style="display: block; margin: 0 auto" />
 <p>
 
@@ -139,21 +139,21 @@ This topic could be about emotions and expressions. Words like "going," "come," 
 <p align="center">
     <img src="figure/topics.png"
         alt="Topics" 
-        width="400"
+        height="200"
         style="display: block; margin: 0 auto" />
 <p>
 
 <p align="center">
     <img src="figure/topic_wordcloud.png"
         alt="Topic Wordcloud" 
-        width="400"
+        height="200"
         style="display: block; margin: 0 auto" />
 <p>
 
 <p align="center">
     <img src="figure/tsne_topic_clusters.png"
         alt="Topic Clusters" 
-        width="400"
+        height="200"
         style="display: block; margin: 0 auto" />
 <p>
 
@@ -168,42 +168,42 @@ This topic could be about emotions and expressions. Words like "going," "come," 
 <p align="center">
     <img src="figure/result.png"
         alt="Result" 
-        width="400"
+        height="200"
         style="display: block; margin: 0 auto" />
 <p>
 
 <p align="center">
     <img src="figure/result1.png"
         alt="Result Explanations" 
-        width="400"
+        height="200"
         style="display: block; margin: 0 auto" />
 <p>
 
 <p align="center">
     <img src="figure/result2.png"
         alt="Result Explanations" 
-        width="400"
+        height="200"
         style="display: block; margin: 0 auto" />
 <p>
 
 <p align="center">
     <img src="figure/result3.png"
         alt="Result Explanations" 
-        width="400"
+        height="200"
         style="display: block; margin: 0 auto" />
 <p>
 
 <p align="center">
     <img src="figure/result4.png"
         alt="Result Explanations" 
-        width="400"
+        height="200"
         style="display: block; margin: 0 auto" />
 <p>
 
 <p align="center">
     <img src="figure/result5.png"
         alt="Result Explanations" 
-        width="400"
+        height="200"
         style="display: block; margin: 0 auto" />
 <p>
 
