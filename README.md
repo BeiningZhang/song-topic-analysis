@@ -14,6 +14,7 @@ The media company can be very fussy, so they expect to see a small powerpoint de
 
 ### Data Extraction
 Folder with txt files -> A DataFrame with columns of songs names and lyrics
+
 ![Data Extraction](figure/data_extraction.png)
 
 ### Data Cleaning
@@ -26,11 +27,12 @@ Total number of songs removed: 62
 
 ### Exploratory Data Analysis (EDA)
 
-####How many of the songs feature at least one pair of lines that rhyme?
+#### How many of the songs feature at least one pair of lines that rhyme?
 Define rhyme: the last words in the consecutive two lines of lyrics are ending with the same 2 letters.
 Method: For each song’s lyrics, split into lines and extract the last words from every two consecutive lines and check whether the two letters in the last words match.
 Data preprocessing: Lowercase the lyrics.
 Number of songs with at least one pair of rhyming lines: 199
+
 ![Songs that feature name](figure/feature_song_name.png)
 
 #### How many of the songs feature the song name (found in the file name) in the song lyrics?
@@ -42,6 +44,13 @@ Number of songs that feature the song name in the lyrics: 186
 Method: Used SentimentIntensityAnalyzer to score the lyrics and classify them as “Negative”, “Neutral”, or “Positive” (using +-0.05 thresholds).
 Data Preprocessing: Further cleaned lyrics by tokenizing and removing stopwords.
 
+![Songs by sentiment](figure/songs_by_sentiment.png)
+
+![Negative Sentiment](figure/negative_sentiment_wordcloud.png)
+
+![Neutral Sentiment](figure/neutral_sentiment_wordcloud.png)
+
+![Positive Sentiment](figure/positive_sentiment_wordcloud.png)
 
 ### Topic Clustering
 Method: Latent Dirichlet Allocation (LDA) topic modeling Data Preprocessing:
@@ -55,6 +64,10 @@ Lower perplexity values indicate a better fit to the data. Higher coherence scor
 - 5 topics: It has a relatively low perplexity score and a good coherence score.
 - 6 topics: It has a slightly higher perplexity score but the highest coherence score, indicating more interpretable topics.
 
+![Perplexity Coherence Score](figure/perplexity_coherence_score.png)
+
+![Perplexity Coherence Graph](figure/perplexity_coherence_graph.png)
+
 ### Interpretation of Clusters
 **Topic 1: Love and Affection**
 This topic seems to revolve around themes of love and affection. Words like "love," "im," "know," "want," "got," and "girl" suggest a strong emphasis on love and romantic relationships. It conveys feelings of desire and affection.
@@ -67,12 +80,26 @@ This topic is related to positive emotions and affirmations. Words like "know," 
 **Topic 5: Emotions and Expression**
 This topic could be about emotions and expressions. Words like "going," "come," "cry," "lonely," and "mine" suggest a focus on emotions and expressions, possibly related to personal experiences and feelings.
 
+![Topics](figure/topics.png)
+
+![Topic Wordcloud](figure/topic_wordcloud.png)
+
+![Topic Clusters](figure/tsne_topic_clusters.png)
+
 ### Result
 Topic 0: Love and Affection
 Topic 1: Actions and Expressions
 Topic 2: Assertiveness and Statements 
 Topic 3: Positive Emotions and Affirmations 
 Topic 4: Emotions and Expression
+
+![Results](figure/result.png)
+
+![Result Explanations](figure/result1.png)
+![Result Explanations](figure/result2.png)
+![Result Explanations](figure/result3.png)
+![Result Explanations](figure/result4.png)
+![Result Explanations](figure/result5.png)
 
 ### Limitations
 - Fixed number of topics
