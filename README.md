@@ -21,8 +21,7 @@ Folder with txt files -> A DataFrame with columns of songs names and lyrics
 <p align="center">
     <img src="figure/data_extraction.png"
         alt="Data Extraction" 
-        width="800" 
-        height="600" 
+        width="200"
         style="display: block; margin: 0 auto" />
 <p>
  
