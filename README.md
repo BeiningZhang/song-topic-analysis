@@ -21,7 +21,7 @@ Folder with txt files -> A DataFrame with columns of songs names and lyrics
 <p align="center">
     <img src="figure/data_extraction.png"
         alt="Data Extraction" 
-        width="200"
+        width="400"
         style="display: block; margin: 0 auto" />
 <p>
  
@@ -42,7 +42,12 @@ Folder with txt files -> A DataFrame with columns of songs names and lyrics
 - **Data preprocessing:** Lowercase the lyrics.
 - Number of songs with at least one pair of rhyming lines: 199
 
-![Songs that feature name](figure/feature_song_name.png)
+<p align="center">
+    <img src="figure/feature_song_name.png"
+        alt="Songs that feature name" 
+        width="400"
+        style="display: block; margin: 0 auto" />
+<p>
 
 ### How many of the songs feature the song name (found in the file name) in the song lyrics?
 - **Method:** For each song, search in its lyrics whether the song name is in it.
