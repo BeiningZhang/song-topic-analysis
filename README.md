@@ -22,36 +22,41 @@ Folder with txt files -> A DataFrame with columns of songs names and lyrics
 
 ## Data Cleaning
 Removed blank files and songs with duplicated lyrics.
+
 Number of songs before cleaning: 279
+
 Number of songs after cleaning: 217
+
 Number of blank files: 58
+
 Number of duplicated songs: 4 
+
 Total number of songs removed: 62
 
 ## Exploratory Data Analysis (EDA)
 
 ### How many of the songs feature at least one pair of lines that rhyme?
-Define rhyme: the last words in the consecutive two lines of lyrics are ending with the same 2 letters.
+**Define rhyme:** the last words in the consecutive two lines of lyrics are ending with the same 2 letters.
 
-Method: For each song’s lyrics, split into lines and extract the last words from every two consecutive lines and check whether the two letters in the last words match.
+**Method:** For each song’s lyrics, split into lines and extract the last words from every two consecutive lines and check whether the two letters in the last words match.
 
-Data preprocessing: Lowercase the lyrics.
+**Data preprocessing:** Lowercase the lyrics.
 
 Number of songs with at least one pair of rhyming lines: 199
 
 ![Songs that feature name](figure/feature_song_name.png)
 
 ### How many of the songs feature the song name (found in the file name) in the song lyrics?
-Method: For each song, search in its lyrics whether the song name is in it.
+**Method:** For each song, search in its lyrics whether the song name is in it.
 
-Data Preprocessing: The dash in song names are replaced with space. The lyrics are lowercased, removed whitespace, and punctuations.
+**Data Preprocessing:** The dash in song names are replaced with space. The lyrics are lowercased, removed whitespace, and punctuations.
 
 Number of songs that feature the song name in the lyrics: 186
 
 #### Sentiment Analysis
-Method: Used SentimentIntensityAnalyzer to score the lyrics and classify them as “Negative”, “Neutral”, or “Positive” (using +-0.05 thresholds).
+**Method:** Used SentimentIntensityAnalyzer to score the lyrics and classify them as “Negative”, “Neutral”, or “Positive” (using +-0.05 thresholds).
 
-Data Preprocessing: Further cleaned lyrics by tokenizing and removing stopwords.
+**Data Preprocessing:** Further cleaned lyrics by tokenizing and removing stopwords.
 
 ![Songs by sentiment](figure/songs_by_sentiment.png)
 
@@ -62,7 +67,7 @@ Data Preprocessing: Further cleaned lyrics by tokenizing and removing stopwords.
 ![Positive Sentiment](figure/positive_sentiment_wordcloud.png)
 
 ### Topic Clustering
-Method: Latent Dirichlet Allocation (LDA) topic modeling Data Preprocessing:
+**Method:** Latent Dirichlet Allocation (LDA) topic modeling Data Preprocessing:
 - Lemmatization
 - Create a dictionary representation of the documents
 - Convert the tokenized documents into a Document-Term Matrix (DTM)
