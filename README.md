@@ -58,13 +58,34 @@ Folder with txt files -> A DataFrame with columns of songs names and lyrics
 - **Method:** Used SentimentIntensityAnalyzer to score the lyrics and classify them as “Negative”, “Neutral”, or “Positive” (using +-0.05 thresholds).
 - **Data Preprocessing:** Further cleaned lyrics by tokenizing and removing stopwords.
 
-![Songs by sentiment](figure/songs_by_sentiment.png)
+<p align="center">
+    <img src="figure/songs_by_sentiment.png"
+        alt="Songs by sentiment" 
+        width="400"
+        style="display: block; margin: 0 auto" />
+<p>
 
-![Negative Sentiment](figure/negative_sentiment_wordcloud.png)
+<p align="center">
+    <img src="figure/negative_sentiment_wordcloud.png"
+        alt="Negative Sentiment" 
+        width="400"
+        style="display: block; margin: 0 auto" />
+<p>
 
-![Neutral Sentiment](figure/neutral_sentiment_wordcloud.png)
+<p align="center">
+    <img src="figure/neutral_sentiment_wordcloud.png"
+        alt="Neutral Sentiment" 
+        width="400"
+        style="display: block; margin: 0 auto" />
+<p>
 
-![Positive Sentiment](figure/positive_sentiment_wordcloud.png)
+<p align="center">
+    <img src="figure/positive_sentiment_wordcloud.png"
+        alt="Positive Sentiment" 
+        width="400"
+        style="display: block; margin: 0 auto" />
+<p>
+
 
 ### Topic Clustering
 **Method:** Latent Dirichlet Allocation (LDA) topic modeling Data Preprocessing:
@@ -79,9 +100,20 @@ Lower perplexity values indicate a better fit to the data. Higher coherence scor
 - 5 topics: It has a relatively low perplexity score and a good coherence score.
 - 6 topics: It has a slightly higher perplexity score but the highest coherence score, indicating more interpretable topics.
 
-![Perplexity Coherence Score](figure/perplexity_coherence_score.png)
+<p align="center">
+    <img src="figure/perplexity_coherence_score.png"
+        alt="Perplexity Coherence Score" 
+        width="400"
+        style="display: block; margin: 0 auto" />
+<p>
 
-![Perplexity Coherence Graph](figure/perplexity_coherence_graph.png)
+<p align="center">
+    <img src="figure/positive_sentiment_wordcloud.png"
+        alt="Perplexity Coherence Graph" 
+        width="400"
+        style="display: block; margin: 0 auto" />
+<p>
+
 
 ### Interpretation of Clusters
 **Topic 1: Love and Affection**
@@ -104,11 +136,27 @@ This topic is related to positive emotions and affirmations. Words like "know," 
 
 This topic could be about emotions and expressions. Words like "going," "come," "cry," "lonely," and "mine" suggest a focus on emotions and expressions, possibly related to personal experiences and feelings.
 
-![Topics](figure/topics.png)
+<p align="center">
+    <img src="figure/topics.png"
+        alt="Topics" 
+        width="400"
+        style="display: block; margin: 0 auto" />
+<p>
 
-![Topic Wordcloud](figure/topic_wordcloud.png)
+<p align="center">
+    <img src="figure/topic_wordcloud.png"
+        alt="Topic Wordcloud" 
+        width="400"
+        style="display: block; margin: 0 auto" />
+<p>
 
-![Topic Clusters](figure/tsne_topic_clusters.png)
+<p align="center">
+    <img src="figure/tsne_topic_clusters.png"
+        alt="Topic Clusters" 
+        width="400"
+        style="display: block; margin: 0 auto" />
+<p>
+
 
 ### Result
 - Topic 0: Love and Affection
@@ -117,17 +165,48 @@ This topic could be about emotions and expressions. Words like "going," "come," 
 - Topic 3: Positive Emotions and Affirmations 
 - Topic 4: Emotions and Expression
 
-![Results](figure/result.png)
+<p align="center">
+    <img src="figure/result.png"
+        alt="Result" 
+        width="400"
+        style="display: block; margin: 0 auto" />
+<p>
 
-![Result Explanations](figure/result1.png)
+<p align="center">
+    <img src="figure/result1.png"
+        alt="Result Explanations" 
+        width="400"
+        style="display: block; margin: 0 auto" />
+<p>
 
-![Result Explanations](figure/result2.png)
+<p align="center">
+    <img src="figure/result2.png"
+        alt="Result Explanations" 
+        width="400"
+        style="display: block; margin: 0 auto" />
+<p>
 
-![Result Explanations](figure/result3.png)
+<p align="center">
+    <img src="figure/result3.png"
+        alt="Result Explanations" 
+        width="400"
+        style="display: block; margin: 0 auto" />
+<p>
 
-![Result Explanations](figure/result4.png)
+<p align="center">
+    <img src="figure/result4.png"
+        alt="Result Explanations" 
+        width="400"
+        style="display: block; margin: 0 auto" />
+<p>
 
-![Result Explanations](figure/result5.png)
+<p align="center">
+    <img src="figure/result5.png"
+        alt="Result Explanations" 
+        width="400"
+        style="display: block; margin: 0 auto" />
+<p>
+
 
 ### Limitations
 - Fixed number of topics
