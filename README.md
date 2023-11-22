@@ -178,35 +178,35 @@ This topic could be about emotions and expressions. Words like "going," "come," 
 <p align="center">
     <img src="figure/result1.png"
         alt="Result Explanations" 
-        height="500"
+        height="400"
         style="display: block; margin: 0 auto" />
 <p>
 
 <p align="center">
     <img src="figure/result2.png"
         alt="Result Explanations" 
-        height="500"
+        height="400"
         style="display: block; margin: 0 auto" />
 <p>
 
 <p align="center">
     <img src="figure/result3.png"
         alt="Result Explanations" 
-        height="500"
+        height="400"
         style="display: block; margin: 0 auto" />
 <p>
 
 <p align="center">
     <img src="figure/result4.png"
         alt="Result Explanations" 
-        height="500"
+        height="400"
         style="display: block; margin: 0 auto" />
 <p>
 
 <p align="center">
     <img src="figure/result5.png"
         alt="Result Explanations" 
-        height="500"
+        height="400"
         style="display: block; margin: 0 auto" />
 <p>
 
