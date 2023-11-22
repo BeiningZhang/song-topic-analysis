@@ -14,6 +14,7 @@ The media company can be very fussy, so they expect to see a small powerpoint de
 
 ### Data Extraction
 Folder with txt files -> A DataFrame with columns of songs names and lyrics
+![Data Extraction](figure/data_extraction.png)
 
 ### Data Cleaning
 Removed blank files and songs with duplicated lyrics.
@@ -30,6 +31,7 @@ Define rhyme: the last words in the consecutive two lines of lyrics are ending w
 Method: For each song’s lyrics, split into lines and extract the last words from every two consecutive lines and check whether the two letters in the last words match.
 Data preprocessing: Lowercase the lyrics.
 Number of songs with at least one pair of rhyming lines: 199
+![Songs that feature name](figure/feature_song_name.png)
 
 #### How many of the songs feature the song name (found in the file name) in the song lyrics?
 Method: For each song, search in its lyrics whether the song name is in it.
