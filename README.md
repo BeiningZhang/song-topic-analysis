@@ -175,7 +175,40 @@ This topic could be about emotions and expressions. Words like "going," "come," 
 - Topic 3: Positive Emotions and Affirmations 
 - Topic 4: Emotions and Expression
 
+<p align="center">
+    <img src="figure/result1.png"
+        alt="Result Explanations" 
+        height="100"
+        style="display: block; margin: 0 auto" />
+<p>
 
+<p align="center">
+    <img src="figure/result2.png"
+        alt="Result Explanations" 
+        height="100"
+        style="display: block; margin: 0 auto" />
+<p>
+
+<p align="center">
+    <img src="figure/result3.png"
+        alt="Result Explanations" 
+        height="100"
+        style="display: block; margin: 0 auto" />
+<p>
+
+<p align="center">
+    <img src="figure/result4.png"
+        alt="Result Explanations" 
+        height="100"
+        style="display: block; margin: 0 auto" />
+<p>
+
+<p align="center">
+    <img src="figure/result5.png"
+        alt="Result Explanations" 
+        height="100"
+        style="display: block; margin: 0 auto" />
+<p>
 
 ### Limitations
 - Fixed number of topics
