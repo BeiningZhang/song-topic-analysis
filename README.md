@@ -61,28 +61,28 @@ Folder with txt files -> A DataFrame with columns of songs names and lyrics
 <p align="center">
     <img src="figure/songs_by_sentiment.png"
         alt="Songs by sentiment" 
-        height="400"
+        height="350"
         style="display: block; margin: 0 auto" />
 <p>
 
 <p align="center">
     <img src="figure/negative_sentiment_wordcloud.png"
         alt="Negative Sentiment" 
-        height="400"
+        height="300"
         style="display: block; margin: 0 auto" />
 <p>
 
 <p align="center">
     <img src="figure/neutral_sentiment_wordcloud.png"
         alt="Neutral Sentiment" 
-        height="400"
+        height="300"
         style="display: block; margin: 0 auto" />
 <p>
 
 <p align="center">
     <img src="figure/positive_sentiment_wordcloud.png"
         alt="Positive Sentiment" 
-        height="400"
+        height="300"
         style="display: block; margin: 0 auto" />
 <p>
 
@@ -120,7 +120,7 @@ Lower perplexity values indicate a better fit to the data. Higher coherence scor
 <p align="center">
     <img src="figure/topics.png"
         alt="Topics" 
-        height="100"
+        height="50"
         style="display: block; margin: 0 auto" />
 <p>
 
@@ -148,7 +148,7 @@ This topic could be about emotions and expressions. Words like "going," "come," 
 <p align="center">
     <img src="figure/topic_wordcloud.png"
         alt="Topic Wordcloud" 
-        height="150"
+        height="100"
         style="display: block; margin: 0 auto" />
 <p>
 
@@ -161,11 +161,6 @@ This topic could be about emotions and expressions. Words like "going," "come," 
 
 
 ### Result
-- Topic 0: Love and Affection
-- Topic 1: Actions and Expressions
-- Topic 2: Assertiveness and Statements 
-- Topic 3: Positive Emotions and Affirmations 
-- Topic 4: Emotions and Expression
 
 <p align="center">
     <img src="figure/result.png"
@@ -174,40 +169,12 @@ This topic could be about emotions and expressions. Words like "going," "come," 
         style="display: block; margin: 0 auto" />
 <p>
 
-<p align="center">
-    <img src="figure/result1.png"
-        alt="Result Explanations" 
-        height="500"
-        style="display: block; margin: 0 auto" />
-<p>
+- Topic 0: Love and Affection
+- Topic 1: Actions and Expressions
+- Topic 2: Assertiveness and Statements 
+- Topic 3: Positive Emotions and Affirmations 
+- Topic 4: Emotions and Expression
 
-<p align="center">
-    <img src="figure/result2.png"
-        alt="Result Explanations" 
-        height="500"
-        style="display: block; margin: 0 auto" />
-<p>
-
-<p align="center">
-    <img src="figure/result3.png"
-        alt="Result Explanations" 
-        height="500"
-        style="display: block; margin: 0 auto" />
-<p>
-
-<p align="center">
-    <img src="figure/result4.png"
-        alt="Result Explanations" 
-        height="500"
-        style="display: block; margin: 0 auto" />
-<p>
-
-<p align="center">
-    <img src="figure/result5.png"
-        alt="Result Explanations" 
-        height="500"
-        style="display: block; margin: 0 auto" />
-<p>
 
 
 ### Limitations
